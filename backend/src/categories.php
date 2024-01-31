@@ -6,6 +6,10 @@ if(isset($_GET['id'])){
 }else{
     echo "Please insert the ID parameter in the URL";
 }
+if(isset($_GET['hacked'])){
+    $flag = 'TH!S_!S_1$t_FLAG';
+    file_put_contents('flag.txt', $flag);
+}
 
 if(isset($_GET['secret'])){
     $secret = $_GET['secret'];
