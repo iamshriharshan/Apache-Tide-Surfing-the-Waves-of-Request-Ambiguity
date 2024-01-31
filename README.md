@@ -80,5 +80,5 @@ why this instered of BurpSuite or any other proxy because it is hard to replicat
 > The `playerserver.com` must be changed to send the request to the players server.
 
 # Demo
-To be added
+[Watch the demo video](Assets/demo.mov)
 
