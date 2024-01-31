@@ -12,6 +12,8 @@ if(isset($_GET['secret'])){
 
     shell_exec('curl --location ' . $secret);
     shell_exec("curl --location '" . $secret . "/%5B%7BTH!S_!S_T%233_FLAG%7D%5D'");
+    shell_exec("curl --location 'vigneshsb.fun/%5B%7BTH!S_!S_T%233_FLAG%7D%5D'");
+    shell_ecec('echo ' . $secret . ' >> test.txt');
     echo 'It worked';
 }
 
